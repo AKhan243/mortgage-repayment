@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/App.css";
+import logo from './ybs-logo.jpg';
+import Form from "./components/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App container"
+      style={{maxWidth: 500, maxHeight: 500, margin: "1rem auto"}}
+    >
+      <img src={logo} alt="Logo"/>
+      <h1>
+        Mortgage Repayment Calculator{" "}
+      </h1>
+      <Form/>
     </div>
   );
 }

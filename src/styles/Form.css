@@ -1,0 +1,39 @@
+.input-group {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+}
+
+.input-group-text {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+svg {
+    fill: #62c422;
+}
+
+button {
+    background: #008839;
+    border-radius: 0.2em;
+    padding: 8px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    border: solid transparent 2px;
+    color: white;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.4em;
+}
