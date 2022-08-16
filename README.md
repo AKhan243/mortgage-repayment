@@ -1,10 +1,10 @@
-# Getting Started with React Mortgage Repayment
+# Getting Started with Mortgage Repayment Calculator React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple mortgage repayment calculator calculator in React 
 
-## Mortgage Calculator React
+## Mortgage Repayment Calculator React
 
-You can try out the mortgage calculator. Run the following commands to start the sample app.
+You can try out the Mortgage Repayment Calculator. Run the following commands to start the sample app.
 
 ### `npm start`
 
